@@ -1,0 +1,97 @@
+﻿@charset "UTF-8";
+
+/*基本*/
+
+*{padding:0px
+     margin:0px;
+    box-sizing: border-box;}
+
+
+
+header{z-index:10;
+  top: 0;
+  left: 0;
+}
+
+header h1{text-align:center;
+	font-family:'Shippori Mincho',serif;
+	text-shadow:
+	-1px -1px 0 white,
+	-1px 1px  0 white,
+	1px -1px  0 white,
+	1px 1px   0 white;}
+
+.glonav{font-family:'Shippori Mincho',serif;}
+
+
+.globack1{background-color:rgba(0,0,0,0.9);
+	 width:100vw;
+	 height:200px;}
+
+.glonav{     display:flex;
+	justify-content:center;
+	font-size:130%;}
+
+.glonav li{	width:100px;
+	height:100%;
+	padding:10px;
+	margin:10px;
+	list-style-type:none;
+	border:3px solid rgb(255,255,255);}
+
+.glonav li a{display:flex;
+	     justify-content:center;
+	     color:#82c8ef;
+	     text-decoration: none;
+	     }
+
+header h1,
+header nav{position:relative;
+		bottom:200px;}
+
+
+header{position:fixed;}
+
+
+/*メインこっから*/
+
+main{	margin-top:300px;
+	z-index:1;}
+
+
+#rav{	
+	width:100vw;
+	height:80vh;
+	max-width:1200px
+	margin: 0 auto;
+	flex-direction: column;
+	position:relative;
+	}
+
+
+.Ya1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;    
+  height: auto;   
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.moji{		position:absolute;
+		top:10%;
+		left:10%;
+	        color:rgb(170,170,30);
+		font-size:280%;
+	     }
+
+.moji2{		position:absolute;
+		top:60%;
+		left:60%;
+	        color:rgb(170,170,30);
+	 	font-size:280%;
+
+	}
+
